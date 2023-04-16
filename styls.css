@@ -1,0 +1,115 @@
+body {
+    font-size: 16px;
+    background: #f9f9f9;
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: #c10101;
+}
+
+header {
+    width: 300px;
+    padding: 15px 40px 40px;
+    margin: 50px auto 0;
+    border-radius: 5px;
+
+}
+
+form {
+    width: 500px;
+    background: #f7f1f1;
+    padding: 15px 40px 40px;
+    border: 1px solid #ccc;
+    margin: 50px auto 0;
+    border-radius: 5px;
+}
+label {
+    display:block;
+    margin-bottom: 5px
+}
+label i {
+    color: #999;
+    font-size: 80%;
+}
+input, select {
+    border: 1px solid rgb(192, 22, 22);
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.row {
+    padding-bottom: 10px;
+}
+.form-inline {
+    border: 1px solid #ccc;
+    padding: 8px 10px 4px;
+    border-radius: 2px;
+}
+.form-inline label, .form-inline input {
+    display: inline-block;
+    width: auto;
+    padding-right: 15px;
+}
+.error {
+    color: red;
+    font-size: 90%;
+}
+input[type="submit"] {
+    font-size: 110%;
+    font-weight: 100;
+    background: #006dcc;
+    border-color: #016BC1;
+    /*box-shadow: 0 3px 0 #0165b6;*/
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background: #0165b6;
+}
+
+.border-color{
+
+    border-color:#c10101;
+    border-width: 2px;
+}
+
+.error{
+
+    background-color: orangered;
+    color:#f9f9f9;
+    padding: 5px;
+    margin: 5px;
+}
+
+.box{
+    background: rebeccapurple;
+    color:lightgoldenrodyellow;
+    height:30px;
+    width:200px;
+    font-size: 20px;
+    padding:30px;
+    margin: 20px;
+}
+
+.myDiv{
+    width: 300px;
+    height: 100;
+    padding: 40px 40px 40px 40px;
+    background:rgb(231, 216, 83);
+    border: 1px solid red;
+    margin-bottom: 10px;
+}
+
+
+.myDiv2{
+    width: 300px;
+    height: 100;
+    padding: 40px 40px 40px 40px;
+    background:rgb(93, 203, 228);
+    border: 1px solid rgb(96, 12, 160);
+}

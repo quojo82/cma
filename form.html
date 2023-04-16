@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styls.css">
+</head>
+<!-- <body>
+    <header><h1> Login Information</h1></header>
+    <section class="container">
+        <form id="my-form">
+         <h1> Add User</h1>
+         <div class="msg"></div>
+         <div>
+            <label for="name">Name: </label>
+            <input type="text" id="name">
+         </div>
+         <div style="margin-top:20px ;">
+            <label for="email">Email: </label>
+            <input type="text" id="email">
+         </div>
+         <input class="btn"  type="submit" value="submit">
+
+         <!-- <ul class="items">
+           <li class="items">item1</li>   
+           <li class="items">item2</li>   
+           <li class="items">item3</li>   
+           
+        </ul> -->
+    <!-- </form> --> 
+    
+
+    <!--  <p onclick="changeColor(this)">
+      Hello World
+     </p>
+
+     <h1 id="attribute"> I am header</h1>
+     <button onclick="changeColorToMediumOrchid()">Click Me</button>
+
+     <div class="box" onmouseover="mOver(this)"  onmouseout="mOut(this)">Click Me</div>
+
+
+         <div class="myDiv">
+            <div class="myP">
+               How much would a woodchuck chuck if the  woodchuck
+               could not chuck wood.
+            </div>
+</div>
+            <div class="myDiv2">
+               <div class="myP2">
+                  A wood chuck will chuck wood if the woodchuck could chuck as 
+                  much as wood a woodchuck could chuck
+               </div>
+
+         </div>
+ -->
+
+         <div id="div1">
+            <p class="p1"> Twinkle Twinkle Twinkle Stars</p>
+            <p class="p2">How I wonder how you</p>
+         </div>
+        
+        
+        <script>
+       /*  function changeColor(obj){
+         obj.style.cssText="font-size:40px; color:blue; background-color:red"
+        }
+
+        const attribute =document.querySelector('#attribute')
+
+        attribute.setAttribute('style', 'border:solid 2px green')
+
+        //document.getElementById('btn').onclick=changeColorToMediumOrchid;
+
+        function changeColorToMediumOrchid(){
+         document.querySelector('body').style.background ="mediumOrchid"
+        }
+
+
+        function mOver(obj){
+         obj.innerHTML="GET OFF ME"
+        }
+
+        function mOut(obj){
+         obj.innerHTML="Thank you!"
+        } */
+
+        const para =document.createElement('p');
+        const node =document.createTextNode("Up above the world so high")
+        para.appendChild(node);
+
+        var parent =document.getElementById('div1')
+        parent.appendChild(para)
+
+
+        var para2=document.createElement('p')
+        para2.innerHTML="Like a diamond in the sky"
+
+        var  child =document.getElementById("p1")
+        parent.insertBefore(para2,child)
+/*      
+
+
+        const myDiv= document.querySelector('.myDiv')
+        const myP= document.querySelector('.myP')
+        const myDiv2= document.querySelector('.myDiv2')
+        const myP2= document.querySelector('.myP2')
+
+        //myDiv.addEventListener("click",changeText, True)
+        myDiv2.addEventListener("click",changeText2)
+
+        myDiv.addEventListener("mouseover", function(){
+        
+            myDiv2.style.background="red"
+            myDiv2.style.cssText="font-size:40px;background:red"
+        })
+        
+        myDiv.addEventListener("mouseout", function(){
+         myDiv2.style.cssText="font-size:14px;background:green;" */
+        
+       
+   //  })
+
+      
+         
+
+
+
+
+        function changeText2(){
+         myDiv2.style.background="yellow";
+
+        }
+       </script>
+
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
